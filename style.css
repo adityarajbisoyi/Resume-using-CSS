@@ -1,0 +1,42 @@
+#Intro {
+  height: 80vh;
+
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 24pt;
+  font-style: normal;
+  font-size: 24pt;
+  background-image: url(./Assets/Images/background4.jpg);
+  background-repeat: no-repeat;
+  padding: 4%;
+}
+#heading {
+  color: lightcyan;
+}
+#description {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 19pt;
+
+  text-align: left;
+  color: lightcyan;
+}
+
+#profile-pic {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+}
+.Images {
+  height: 200px;
+  width: 200px;
+}
+
+.container-1 {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
