@@ -59,13 +59,15 @@ body {
 
 #Showcase {
   padding-left: 5%;
-  border: 4px dashed cyan;
   border-radius: 5%;
 }
 
-
 .link a {
-  color: whitesmoke;
-  text-decoration:double;
+  color: lightskyblue;
+  text-decoration: underline;
+  font-family: "Playfair Display", serif;
   font-size: 18pt;
+}
+.More-details {
+  text-align: left;
 }
