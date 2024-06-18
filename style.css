@@ -1,3 +1,8 @@
+body {
+  background-image: url(./Assets/Images/background4.jpg);
+  opacity: 100%;
+}
+
 #Intro {
   height: 85vh;
 
@@ -6,8 +11,6 @@
   font-weight: 24pt;
   font-style: normal;
   font-size: 24pt;
-  background-image: url(./Assets/Images/background4.jpg);
-  background-repeat: no-repeat;
   padding: 4%;
 }
 #heading {
@@ -39,4 +42,30 @@
   flex-direction: column;
 
   align-items: center;
+}
+.skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  font-family: "Playfair Display", serif;
+  font-size: 15pt;
+  font-weight: 500;
+  gap: 20px;
+}
+
+.skill-bg {
+  color: gainsboro;
+}
+
+#Showcase {
+  padding-left: 5%;
+  border: 4px dashed cyan;
+  border-radius: 5%;
+}
+
+
+.link a {
+  color: whitesmoke;
+  text-decoration:double;
+  font-size: 18pt;
 }
